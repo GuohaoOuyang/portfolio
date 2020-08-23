@@ -66,4 +66,27 @@ exports.deleteData = async (req, res, next) =>{
       error: 'System Error',
     });
   }
+};
+
+exports.putData = async (req, res, next) => {
+  try {
+    const data = await info.findById(mongoose.Types.ObjectId(req.params.id));
+    if(!data){
+      return res.status(404).json({
+        success: false,
+        error: 'data not found'
+      });
+    }
+    await info.update({_id: mongoose.Types.ObjectId(req.params.id) }, req.body);
+    const newData = await info.findById(mongoose.Types.ObjectId(req.params.id));
+    return res.status(200).json({
+      success: true,
+      newData: newData
+    })
+  } catch (err) {
+    return res.status(500).json({
+      success: false,
+      error: 'System Error',
+    });
+  }
 }

@@ -6,7 +6,7 @@ import axios from 'axios';
 const initialState = {
   bullepoints: [],
   error: null,
-  loading: true
+  loading: true,
 }
 
 // Create context
@@ -46,6 +46,23 @@ export const GlobalState = ({ children }) => {
       });
     }
   }
+
+  // async function editBulletPoint(id) {
+  //   try {
+  //     await axios.put(`myResume/v1/${id}`);
+  //     dispatch({
+  //       type: 'EDIT_POINT',
+  //       payload: id
+  //     });
+  //   } catch (err) {
+  //     dispatch({
+  //       type: 'LOADING_ERROR',
+  //       payload: err.response.data.error
+  //     });
+  //   }
+  //
+  // }
+
 
   async function addBulletPoint(point) {
     const config = {

@@ -1,0 +1,19 @@
+.headerStyle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.name {
+  font-weight: 800;
+  margin-left: 60px;
+}
+
+.homeR {
+  position: relative;
+  text-align: right;
+  width: 500%;
+  color: #000;
+}

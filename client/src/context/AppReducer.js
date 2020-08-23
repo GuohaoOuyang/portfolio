@@ -16,6 +16,10 @@ export default (state, action) => {
         ...state,
         bullepoints: state.bullepoints.filter(bulletpoint => bulletpoint._id !== action.payload)
       }
+    case 'EDIT_POINT' :
+      return {
+        ...state
+      }
     case 'ADD_POINT':
       return {
         ...state,
