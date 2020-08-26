@@ -23,11 +23,8 @@ export const AddTransaction = () => {
 
   return (
     <>
-
-            <h3 className="sectionTitle">Add BulletPoint</h3>
-
-
-      <form >
+              <h3 className="sectionTitle">Add BulletPoint</h3>
+      <form className="addPart">
         <div className="form-control">
           <label htmlFor="text" className="attr">Text</label>
           <input type="text" id="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />

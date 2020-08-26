@@ -3,7 +3,8 @@
   list-style-type: none;
   padding: 0;
   margin-bottom: 30px;
-  width: 800px;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .fNormal {
@@ -60,4 +61,29 @@
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+
+
+@media screen and (max-width:580px) {
+.list {
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+}
+
+.fNormal {
+  padding: 1px;
+  margin: 3px 0;
+}
+
+.fBold {
+  padding: 2px;
+  margin: 5px 0;
+}
+
+.fItalic {
+  padding: 1px;
+  margin: 2px 0;
+}
+
 }

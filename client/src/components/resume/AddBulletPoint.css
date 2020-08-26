@@ -1,15 +1,15 @@
 .btn {
+  display: block;
+  width: 100%;
   cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
   background-color: #b3b3b3;
-  box-shadow: var(--box-shadow);
   color: #333;
   font-weight: bold;
-  border: 0;
-  display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
-  padding: 10px;
-  width: 100%;
+  text-align: center;
+  border-radius: 4px;
 }
 
 .attr {
@@ -21,7 +21,7 @@
   outline: 0;
 }
 
-input[id='text'], .into, .font {
+ input[id='text'], .into, .font {
   border: 1px solid #dedede;
   font-weight: 500;
   border-radius: 5px;
@@ -30,5 +30,26 @@ input[id='text'], .into, .font {
   font-size: 16px;
   padding: 10px;
   margin-bottom: 10px;
-  width: 800px;
+  width: 100%;
+}
+
+.addPart {
+  padding-bottom: 8rem;
+}
+
+@media screen and (max-width:580px) {
+.btn, input[id='text'], .into, .font {
+  font-size: 10px;
+  padding: 4px 5px;
+}
+
+.attr {
+  font-weight: bold;
+  color: #333;
+  font-size: 10px;
+}
+
+.addPart {
+  padding-bottom: 3rem;
+}
 }

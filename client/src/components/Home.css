@@ -40,12 +40,15 @@ p {
   position: fixed;
   z-index: 1;
   color: #fff;
-  margin-left: 100rem;
-  padding-top: 1rem;
-  display: flex;
-  align-items:flex-end;
+  top: 5px;
+  right: 5px;
+  padding: 20px 10px;
+  /* margin-left: 100rem; */
+  /* padding-top: 1rem; */
+  /* display: flex; */
+  /* align-items:flex-end;
   justify-content: right;
-  text-align: right;
+  text-align: right; */
 }
 
 .homeb:hover {
@@ -246,4 +249,93 @@ p {
 .bg2 {
   background: url('./bgImages/hk.jpg');
   color: white;
+}
+
+/* mobile setting */
+@media screen and (max-width: 580px) {
+.in-small {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+}
+
+.homeName {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container > div:nth-of-type(1) {
+  grid-column: auto;
+}
+
+.container > div:nth-of-type(4) {
+  grid-column: auto;
+}
+
+.container > div:nth-of-type(8) {
+  grid-column: auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.qC {
+  display: none;
+}
+
+.section-head {
+  font-size: 1rem;
+  margin-top: 5vh;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.section-content {
+  font-size: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: left;
+}
+
+.aboutMe {
+  padding: 2rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.back, .container > div, .front > div, .link > div{
+  height: 150px;
+}
+
+.education, .languages, .frameworks, .contactI {
+  padding:  1rem;
+  line-height: 1.6em;
+  font-size: 0.8rem;
+}
+
+.ido {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  overflow-y: hidden;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.running {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.ido > div:nth-of-type(2) {
+  grid-column: auto;
+}
+
 }

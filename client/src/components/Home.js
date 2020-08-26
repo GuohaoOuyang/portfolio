@@ -44,7 +44,7 @@ export const Home = () => {
     <React.Fragment>
     {/* home botton */}
       <h2 className="homeb"><FontAwesomeIcon icon={ faHome } onClick={scrollToTop}/></h2>
-    <div className="container">
+    <div className="container in-small">
     {/* title */}
       <div className="bg1">
         <Link to="/" className="res">
@@ -137,8 +137,8 @@ export const Home = () => {
         <p className="section-content">I was born and raised in Chengdu, China.
         A mega city south west known for panda. I did my elementary schooling
         there all the way till grade eleven. Then, I came to Canada in June 2013 for
-        further studying. I had two diplomas, one is at Widsor, the south Ontario.
-        And the second one is from Nigara College. I went to University at 2016 and just finished
+        further studying. I had two diplomas, one is at Windsor, the south Ontario.
+        And the second one is from Niagara College. I went to University at 2016 and just finished
         my bachelor degree at York, Toronto.</p>
       <img src={mock} alt="" className="aboutbg"/>
       </div>
@@ -149,15 +149,15 @@ export const Home = () => {
         </div>
         <div>
           <p className="section-content">
-            There was a time, I used to do vehicle express services in Nissan, Waterloo at 2015, back when I first
-              graduated from Niagara College. It was a good job. However, I found that I wasn't enjoy that much
+            There was a time, I used to do vehicle express services in Nissan, Waterloo in 2015, back when I first
+              graduated from Niagara College. It was a good job. However, I found that I wasn't enjoying that much
               every now and then. Deep down I want to achieve something meaningful, So I manage to keep learning
               and go back to University for a computer science degree.
             </p>
             <br></br>
             <p className="section-content">
-              After graduatign from University. I build projects and keep learning new techs to tickle my
-              brain. I am looking forward to meet a bunch of awesome guys to make soem beautiful things together.
+              After graduating from the University. I build projects and keep learning new techs to tickle my
+              brain. I am looking forward to meet a bunch of awesome guys to make some beautiful things together.
             </p>
         </div>
       </div>

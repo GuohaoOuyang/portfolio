@@ -4,16 +4,21 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 1em;
+  padding-top: 3rem;
 }
 
 .name {
   font-weight: 800;
-  margin-left: 60px;
+  text-align: center;
 }
 
 .homeR {
-  position: relative;
-  text-align: right;
-  width: 500%;
+  position: fixed;
+  top: 20px;
+  right: 10px;
   color: #000;
+}
+
+@media screen and (max-width:580px) {
+
 }
