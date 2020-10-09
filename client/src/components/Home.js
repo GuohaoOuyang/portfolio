@@ -30,7 +30,7 @@ export const Home = () => {
   }
 
   const handleClick3 = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     setIsFlipped3(!isFlipped3);
   }
 
@@ -101,21 +101,21 @@ export const Home = () => {
       </div>
      {/* project link */}
       <div className="bg2">
-      <a href="https://github.com/GuohaoOuyang/Analyzer" className="res">
+      <a href="https://inovagame.herokuapp.com/" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>Project 1</p>
+        <p>Brand Demo</p>
       </a>
       </div>
       <div className="bg2">
       <a href="https://github.com/GuohaoOuyang/chess_solitaire" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>Project 2</p>
+        <p>Chess Solitaire</p>
       </a>
       </div>
       <div className="bg2">
-      <a href="https://github.com/GuohaoOuyang/my-resume" className="res">
+      <a href="https://github.com/GuohaoOuyang/Analyzer" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>Project 3</p>
+        <p>Analyzer</p>
       </a>
       </div>
      {/* card flip contact*/}

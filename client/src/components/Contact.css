@@ -1,0 +1,33 @@
+.contactI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contactI > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.contactI > div > a {
+  text-decoration: none;
+  margin-right: 20%;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.contactI > div > a:hover {
+  transform: scale(1.1);
+  color: #aaa;
+}
+
+/* qr code */
+.qC {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}

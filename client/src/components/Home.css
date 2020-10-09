@@ -4,14 +4,6 @@
   padding: 0;
 }
 
-/* qr code */
-.qC {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  right: 300px;
-  top: 80px;
-}
 
 /* grid content style */
 h2 {
