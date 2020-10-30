@@ -4,6 +4,9 @@ Portfolio -- an ongoing updating react portfolio.
 ## Description
 The website is demo to demonstrate myself including my story, skills, resume and recent projects.
 
+## [Demo](https://guohaoouyang.herokuapp.com/)
+The demo is hosted free by heroku, so please be patient of loading time :)
+
 ## Code style
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
