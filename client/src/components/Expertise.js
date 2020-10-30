@@ -7,14 +7,14 @@ export const Expertise = () => {
       <li>Java</li>
       <li>JavaScript</li>
       <li>HTML</li>
-      <li>CSS</li>
+      <li>Sass</li>
       <li>SQL</li>
     </ul>
     <ul className="frameworks">
       <li>React</li>
       <li>Node</li>
       <li>Express</li>
-      <li>Firebase</li>
+      <li>Materialize</li>
       <li>MongoDB</li>
     </ul>
   </div>

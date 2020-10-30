@@ -14,13 +14,18 @@
 .contactI > div > a {
   text-decoration: none;
   margin-right: 20%;
-  color: #fff;
+  color: #dfe9c8;
   transition: all 0.5s ease;
 }
 
-.contactI > div > a:hover {
+.contactI > div > a:first-child:hover {
   transform: scale(1.1);
-  color: #aaa;
+  color: #2867B2;
+}
+
+.contactI > div > a:nth-child(2):hover {
+  transform: scale(1.1);
+  color: #4078c0;
 }
 
 /* qr code */

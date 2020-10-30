@@ -48,7 +48,7 @@ export const Home = () => {
     {/* title */}
       <div className="bg1">
         <Link to="/" className="res">
-          <p className="homeName">Hi, Welcome to My Page!</p>
+          <p className="homeName">Guohao Ouyang<br></br><p style={{color: '#dfe9c8'}}>Front End Developer</p></p>
         </Link>
       </div>
     {/* nav section */}
@@ -101,10 +101,10 @@ export const Home = () => {
       </div>
      {/* project link */}
       <div className="bg2">
-      <a href="https://inovagame.herokuapp.com/" className="res">
+      <Link to="/inova" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
         <p>Brand Demo</p>
-      </a>
+      </Link>
       </div>
       <div className="bg2">
       <a href="https://github.com/GuohaoOuyang/chess_solitaire" className="res">

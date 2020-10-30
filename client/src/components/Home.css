@@ -20,7 +20,7 @@ h2 {
 .res {
   text-decoration: none;
   font-size: 30px;
-  color: white;
+  color: #dfe9c8;
 }
 
 p {
@@ -31,7 +31,7 @@ p {
 .homeb {
   position: fixed;
   z-index: 1;
-  color: #fff;
+  color: #dfe9c8;
   top: 5px;
   right: 5px;
   padding: 20px 10px;
@@ -165,7 +165,7 @@ p {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   background: #282828;
-  color: #fff;
+  color: #dfe9c8;
   font-family: 'Lato', sans-serif;
 }
 
@@ -240,7 +240,7 @@ p {
 
 .bg2 {
   background: url('./bgImages/hk.jpg');
-  color: white;
+  color: #dfe9c8;
 }
 
 /* mobile setting */

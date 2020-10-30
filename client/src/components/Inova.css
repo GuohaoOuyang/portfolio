@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.content {
+    background: #1e1e1e;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255,245,235);
+    line-height: 1.6rem;
+}
+
+.content__title {
+    margin-top: 10vh;
+    font-size: 1.2rem;
+    padding-bottom: 5vh;
+    color: #dfe9c8;
+}
+
+.content__description{
+    padding-bottom: 5vh;
+}
+
+.content__feature{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content__explore {
+    margin-top: 5vh;
+}
+
+.content__explore > a {
+    text-decoration: none;
+}
+
+.content__explore > a > h3 {
+    color: #dfe9c8;
+    transition: all 0.3s ease;
+}
+
+.content__explore > a > h3:hover {
+    transform: scale(1.1);
+    color: #4078c0;
+}
+
+.content__feature > h3 {
+    color: #dfe9c8;
+}
+
+.content__feature > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.content__ss__title {
+    color: #dfe9c8;
+    margin-top: 5vh;
+}
+
+.content__screenshot{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+
+.content__screenshot > img {
+    width: 100%;
+    height:auto;
+    overflow-x: hidden;
+}
