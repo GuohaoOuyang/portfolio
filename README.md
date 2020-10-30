@@ -1,5 +1,5 @@
 ## Project title
-Portfolio -- an ongoing updating react portolio.
+Portfolio -- an ongoing updating react portfolio.
 
 ## Description
 The website is demo to demonstrate myself including my story, skills, resume and recent projects.
