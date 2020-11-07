@@ -16,6 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(255,245,235);
     line-height: 1.6rem;
+
 }
 
 .content__title {
@@ -35,6 +36,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -63,10 +66,16 @@ body {
 .content__feature > ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    grid-template-columns: auto auto;
+    grid-column-gap: 4rem;
+    margin-top: 3vh;
+    justify-content: space-around;
     text-align: left;
     margin-left: 10%;
+}
+
+.content__feature > ul > li {
+    width: auto;
 }
 
 .content__ss__title {

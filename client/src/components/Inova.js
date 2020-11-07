@@ -30,13 +30,13 @@ export function Inova() {
                     <h3>Features</h3>
                     <ul>
                         <li>parallax scrolling</li>
+                        <li>infinite scrolling banner</li>
+                        <li>auto detect scroll section</li>  
                         <li>breathable web lottie animation</li>
                         <li>google map search with marker</li>
-                        <li>infinite scrolling banner</li>
                         <li>gradient fill with svg and linear gradient</li>
-                        <li>auto play carousel with manual control and visible animation timer</li>
-                        <li>auto detect scroll section</li>  
                         <li>nav bar hide on scroll down, show on scroll up</li>
+                        <li>auto play carousel with manual control and visible animation timer</li>
                     </ul>
                 </div>
                 <div className="content__explore">

@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7e5ff1b228c9bc895821c8e174aee6b",
+    "revision": "4526e133e6d268a3c614705e90c7ca33",
     "url": "/index.html"
   },
   {
-    "revision": "76064f6162dc2b2f4d12",
-    "url": "/static/css/main.be4489f0.chunk.css"
+    "revision": "dc02a32906ae4aebc140",
+    "url": "/static/css/main.c5d4e530.chunk.css"
   },
   {
-    "revision": "1214d946592ca2d03482",
-    "url": "/static/js/2.9b7b6b86.chunk.js"
+    "revision": "b95cdf36a12f11e0722e",
+    "url": "/static/js/2.49a6d5d1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.9b7b6b86.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.49a6d5d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76064f6162dc2b2f4d12",
-    "url": "/static/js/main.422fdbbb.chunk.js"
+    "revision": "dc02a32906ae4aebc140",
+    "url": "/static/js/main.8da16f68.chunk.js"
   },
   {
     "revision": "e1f4633d0b250b75e305",
     "url": "/static/js/runtime-main.2cb59220.js"
+  },
+  {
+    "revision": "4e656a6f303ce54f3431e3e0447f74d9",
+    "url": "/static/media/cart.4e656a6f.png"
   },
   {
     "revision": "30b975ce691cc6e2fe959a421501f292",
@@ -40,6 +44,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hk.a1e59733.jpg"
   },
   {
+    "revision": "90b2a6f442062bf60c76cddc0537894d",
+    "url": "/static/media/homebot.90b2a6f4.png"
+  },
+  {
+    "revision": "2d50290d89ffc0f81fc5b92d8d86dbb0",
+    "url": "/static/media/hometop.2d50290d.png"
+  },
+  {
     "revision": "d8b770a02ed0472b6b0ce62e14fa05bc",
     "url": "/static/media/item1.d8b770a0.png"
   },
@@ -50,6 +62,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "811311ec1aafff388bb7ba095a4c9673",
     "url": "/static/media/mockup.811311ec.png"
+  },
+  {
+    "revision": "da01094bb9858d542bd31c98a2a7ce98",
+    "url": "/static/media/orders.da01094b.png"
+  },
+  {
+    "revision": "7719bed2825dcf89b2d0cbcc6ad1993e",
+    "url": "/static/media/payment.7719bed2.png"
+  },
+  {
+    "revision": "4f5889e9d4c6192582e03e96c8eb9c44",
+    "url": "/static/media/product.4f5889e9.png"
+  },
+  {
+    "revision": "b53c49276e1ec55d5770d0c155981bf0",
+    "url": "/static/media/products.b53c4927.png"
+  },
+  {
+    "revision": "e617df4465d5e06ef0b800848f507425",
+    "url": "/static/media/signup.e617df44.png"
   },
   {
     "revision": "c3de700c5cb7752d213538a541956d20",

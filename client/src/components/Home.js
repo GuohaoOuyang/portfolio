@@ -48,7 +48,8 @@ export const Home = () => {
     {/* title */}
       <div className="bg1">
         <Link to="/" className="res">
-          <p className="homeName">Guohao Ouyang<br></br><p style={{color: '#dfe9c8'}}>Front End Developer</p></p>
+          <p className="homeName">Guohao Ouyang</p>
+          <p style={{color: '#dfe9c8'}}>Front End Developer</p>
         </Link>
       </div>
     {/* nav section */}
@@ -107,10 +108,10 @@ export const Home = () => {
       </Link>
       </div>
       <div className="bg2">
-      <a href="https://github.com/GuohaoOuyang/chess_solitaire" className="res">
+      <Link to="/fair" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>Chess Solitaire</p>
-      </a>
+        <p>E-Book Store</p>
+      </Link>
       </div>
       <div className="bg2">
       <a href="https://github.com/GuohaoOuyang/Analyzer" className="res">

@@ -4,6 +4,7 @@ import './App.css';
 import { Home } from './components/Home';
 import { Resume } from './components/resume/Resume';
 import { Inova } from './components/Inova';
+import { Fair } from './components/Fair';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/inova">
           <Inova />
+        </Route>
+        <Route path="/fair">
+          <Fair />
         </Route>
       </Switch>
     </Router>
