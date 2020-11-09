@@ -40,6 +40,9 @@ export function Inova() {
                     </ul>
                 </div>
                 <div className="content__explore">
+                    <a href="https://inovagame.herokuapp.com/"><h2>Demo</h2></a>
+                </div>
+                <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Brand-demo-inovagame"><h3>Explore More at Github</h3></a>
                 </div>
                 <div className="content__ss__title">
