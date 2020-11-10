@@ -9,6 +9,7 @@ export const Header = () => {
     <div className="headerStyle">
       <div className="head">
         <h2 className='name'>Guohao Ouyang</h2>
+        <h4 style={{color:'grey'}}>Front End Developer</h4>
       </div>
       <div>
         <Link to="/">

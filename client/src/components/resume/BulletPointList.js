@@ -13,6 +13,10 @@ export const BulletPointList = () => {
   return (
     <div className="mainContext">
     <div className="header">
+    <h3 className="sectionTitle">PROFILE</h3>
+    <p className='fNormal' style={{lineHeight:'1.6rem',listStyleType:'none', marginBottom: '30px',fontSize:'1rem'}}>Highly Self-Motivated front-end 
+    developer with 3 years of experience building end-to-end responsive websites. Proficient in HTML, CSS, JavaScript and modern
+     frameworks with react, redux, and sass. Accustomed to an agile and fast-paced work environment.</p>
     <h3 className="sectionTitle">QUALIFICATIONS</h3>
     <ul className="list">
         {bullepoints.filter(bulletpoint => (bulletpoint.into==='qualification')).map(bulletpoint => (<BulletPoint key={bulletpoint._id} bulletpoint={bulletpoint} />))}

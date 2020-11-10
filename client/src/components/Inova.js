@@ -39,8 +39,13 @@ export function Inova() {
                         <li>auto play carousel with manual control and visible animation timer</li>
                     </ul>
                 </div>
-                <div className="content__explore">
-                    <a href="https://inovagame.herokuapp.com/"><h2>Demo</h2></a>
+                <div className="content__demo">
+                    <a href="https://inovagame.herokuapp.com/"><h3>Demo</h3></a>
+                </div>
+                <div className="content__demosub">
+                    <h3>
+                    the demo is hosted free by heroku, it might take a little bit longer to load
+                    </h3>
                 </div>
                 <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Brand-demo-inovagame"><h3>Explore More at Github</h3></a>

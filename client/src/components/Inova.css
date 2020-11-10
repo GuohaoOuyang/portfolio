@@ -16,7 +16,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(255,245,235);
     line-height: 1.6rem;
-
 }
 
 .content__title {
@@ -30,6 +29,7 @@ body {
     padding-bottom: 5vh;
 }
 
+
 .content__feature{
     width: inherit;
     display: flex;
@@ -40,9 +40,34 @@ body {
     margin-right: 10%;
 }
 
+.content__demo {
+    margin-top: 5vh;
+}
+
+.content__demo > a {
+    text-decoration: none;
+}
+
+.content__demo > a > h3 {
+
+    color: #dfe9c8;
+    transition: all 0.3s ease;
+}
+
+.content__demo > a > h3:hover {
+    transform: scale(1.1);
+    color: #ffa500;
+}
 
 .content__explore {
     margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content__demosub {
+    padding-top: 3vh;
 }
 
 .content__explore > a {
@@ -52,18 +77,6 @@ body {
 .content__explore > a > h3 {
     color: #dfe9c8;
     transition: all 0.3s ease;
-}
-
-.content__explore > a > h2 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #dfe9c8;
-    transition: all 0.3s ease;
-}
-
-.content__explore > a > h2:hover {
-    transform: scale(1.1);
-    color: #ffa500;
 }
 
 .content__explore > a > h3:hover {
