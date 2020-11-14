@@ -9,6 +9,7 @@ const initialState = {
   loading: true,
 }
 
+
 // Create context
 export const GlobalContext = createContext(initialState);
 
@@ -19,7 +20,7 @@ export const GlobalState = ({ children }) => {
   // Actions
   async function getInfo(){
     try {
-      const res = await axios.get('myResume/v1');
+      const res = await axios.get(`/myResume/v1`);
       dispatch({
         type: 'GET_INFO',
         payload: res.data.data
@@ -34,7 +35,7 @@ export const GlobalState = ({ children }) => {
 
   async function deleteBulletPoint(id) {
     try {
-      await axios.delete(`myResume/v1/${id}`);
+      await axios.delete(`/myResume/v1/${id}`);
       dispatch({
         type: 'DELETE_POINT',
         payload: id
@@ -71,7 +72,7 @@ export const GlobalState = ({ children }) => {
       }
     }
     try {
-      const res = await axios.post('myResume/v1',point, config);
+      const res = await axios.post(`/myResume/v1`,point, config);
       dispatch({
         type: 'ADD_POINT',
         payload: res.data.data

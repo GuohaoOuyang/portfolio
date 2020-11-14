@@ -38,6 +38,9 @@ export function Fair() {
                         <li>product management add/delete</li>
                     </ul>
                 </div>
+                <div className="content__demo">
+                    <a href="http://ec2-15-223-64-87.ca-central-1.compute.amazonaws.com"><h3>Demo</h3></a>
+                </div>
                 <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Fair-ebook-shop"><h3>Explore More at Github</h3></a>
                 </div>
