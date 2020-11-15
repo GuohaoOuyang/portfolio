@@ -30,16 +30,21 @@ export function Fair() {
                     <ul style={{marginLeft:'2%'}}>
                         <li>product search</li>
                         <li>product pagination</li>
+                        <li>shopping cart system</li>
                         <li>paypal api integration</li>
-                        <li>admin user management</li>  
+                        <li>user secure authentication</li>
+                        <li>inventory management system</li>  
+                        <li>customized product page with rate and review</li>
                         <li>best selling product jumbotron</li>
-                        <li>product review and rating support</li>
-                        <li>user login/register authentication</li>
-                        <li>product management add/delete</li>
                     </ul>
                 </div>
                 <div className="content__demo">
                     <a href="http://ec2-15-223-64-87.ca-central-1.compute.amazonaws.com"><h3>Demo</h3></a>
+                </div>
+                <div className="content__demosub">
+                    <h3>
+                    the demo is hosted on an AWS EC2 instance
+                    </h3>
                 </div>
                 <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Fair-ebook-shop"><h3>Explore More at Github</h3></a>
