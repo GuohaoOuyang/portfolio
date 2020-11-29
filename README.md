@@ -2,7 +2,7 @@
 Portfolio -- an ongoing updating react portfolio.
 
 ## Description
-The website is demo to demonstrate myself including my story, skills, resume and recent projects.
+The website is a demo to demonstrate myself including my story, skills, resume and recent projects.
 
 ## [Demo](https://guohaoouyang.herokuapp.com/)
 The demo is hosted free by heroku, so please be patient of loading time :)
