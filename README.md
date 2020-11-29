@@ -28,6 +28,7 @@ The demo is hosted free by heroku, so please be patient of loading time :)
 - card-flip effect
 - smooth scroll
 - embeded editable resume
+- redirect project info page
 
 ## Installation
 This project was bootstrapped with Create React App.
