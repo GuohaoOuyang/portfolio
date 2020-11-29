@@ -8,6 +8,7 @@ export const Contact = () => {
      <div>
        <a href="https://www.linkedin.com/in/guohao-ouyang-13451619a/"><h3>Linkedin</h3></a>
        <a href="https://github.com/GuohaoOuyang?tab=repositories"><h3>Github</h3></a>
+       <a href="https://gojsblog.herokuapp.com/"><h3>Blog</h3></a>
      </div>
     <h3>Email: guohao.ouyang@gmail.com</h3>
     <h3>WeChat: ha408737315 </h3>

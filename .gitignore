@@ -1,5 +1,6 @@
-/node_modules
-/client/node_modules
-/build
+node_modules/
+client/node_modules/
+client/build/
+client/public/
 .DS_Store
-/config/config/env
+config/config/env
