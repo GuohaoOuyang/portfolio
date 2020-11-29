@@ -14,6 +14,7 @@ The demo is hosted free by heroku, so please be patient of loading time :)
 ![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
 ![ss2](/client/src/components/bgImages/screenshot2.png?raw=true "Optional Title")
 ![ss3](/client/src/components/bgImages/screenshot3.png?raw=true "Optional Title")
+![ss3](/client/src/components/bgImages/screenshot4.png?raw=true "Optional Title")
 
 ## Tech/framework used
 - [React](https://reactjs.org/)
