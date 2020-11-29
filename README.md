@@ -64,4 +64,3 @@ When you edit the code, please run npm run test to check the formatting of your 
 
 MIT © [GuohaoOuyang]()
 
->>>>>>> a1e17e0fd2957cd56c8de652e7b90636addc5658
