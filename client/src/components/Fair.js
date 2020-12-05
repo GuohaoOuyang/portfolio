@@ -25,19 +25,6 @@ export function Fair() {
                       an e-book store build with React, Redux, Express and MongoDB
                     </h3>
                 </div>
-                <div className="content__feature" >
-                    <h3>Features</h3>
-                    <ul style={{marginLeft:'2%'}}>
-                        <li>product search</li>
-                        <li>product pagination</li>
-                        <li>shopping cart system</li>
-                        <li>paypal api integration</li>
-                        <li>user secure authentication</li>
-                        <li>inventory management system</li>  
-                        <li>customized product page with rate and review</li>
-                        <li>best selling product jumbotron</li>
-                    </ul>
-                </div>
                 <div className="content__demo">
                     <a href="http://ec2-15-223-64-87.ca-central-1.compute.amazonaws.com"><h3>Demo</h3></a>
                 </div>
@@ -45,6 +32,27 @@ export function Fair() {
                     <h3>
                     the demo is hosted on an AWS EC2 instance
                     </h3>
+                </div>
+                <div className="content__feature">
+                    <h3>Features</h3>
+                </div>
+                <div className="content__feature_list">
+                    <div>
+                        <ul>
+                            <li><h3>product searchbox</h3></li>
+                            <li><h3>customized product page</h3></li>
+                            <li><h3>customized shopping cart page</h3></li>
+                            <li><h3>refreshable best selling product jumbotron</h3></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><h3>paypal api intergration</h3></li>
+                            <li><h3>product rate and review system</h3></li>
+                            <li><h3>user register/login JWT authentication</h3></li>  
+                            <li><h3>administrator inventory management system</h3></li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Fair-ebook-shop"><h3>Explore More at Github</h3></a>

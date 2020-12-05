@@ -26,19 +26,6 @@ export function Inova() {
                       a responsive landing page brochure focused on a pleasing front end UI/UX design
                     </h3>
                 </div>
-                <div className="content__feature">
-                    <h3>Features</h3>
-                    <ul>
-                        <li>parallax scrolling</li>
-                        <li>infinite scrolling banner</li>
-                        <li>auto detect scroll section</li>  
-                        <li>breathable web lottie animation</li>
-                        <li>google map search with marker</li>
-                        <li>gradient fill with svg and linear gradient</li>
-                        <li>nav bar hide on scroll down, show on scroll up</li>
-                        <li>auto play carousel with manual control and visible animation timer</li>
-                    </ul>
-                </div>
                 <div className="content__demo">
                     <a href="https://inovagame.herokuapp.com/"><h3>Demo</h3></a>
                 </div>
@@ -46,6 +33,27 @@ export function Inova() {
                     <h3>
                     the demo is hosted free by heroku, it might take a little bit longer to load
                     </h3>
+                </div>
+                <div className="content__feature">
+                    <h3>Features</h3>
+                </div>
+                <div className="content__feature_list">
+                    <div>
+                        <ul>
+                            <li><h3>parallax scrolling</h3></li>
+                            <li><h3>auto detect scroll section</h3></li>  
+                            <li><h3>google map search with marker</h3></li>
+                            <li><h3>nav bar hide on scroll down, show on scroll up</h3></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><h3>infinite scrolling banner</h3></li>
+                            <li><h3>breathable web lottie animation</h3></li>
+                            <li><h3>gradient fill with svg and linear gradient</h3></li>
+                            <li><h3>auto play carousel with manual control and visible animation timer</h3></li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="content__explore">
                     <a href="https://github.com/GuohaoOuyang/Brand-demo-inovagame"><h3>Explore More at Github</h3></a>
