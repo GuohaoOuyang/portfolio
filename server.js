@@ -19,10 +19,8 @@ if(process.env.NODE_ENV==='development'){
 app.use('/myResume/v1', router);
 
 if(process.env.NODE_ENV==='production'){
-  const root = path.join(__dirname, 'client', 'build');
-  app.use(express.static(root));
-  app.get('*', (req,res) => res.sendFile('index.html', { root }));
-  // app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'client', 'build','index.html')));
+  app.use(express.static('client/build'));
+  app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'client', 'build','index.html')));
 }
 
 const PORT = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 5000;
