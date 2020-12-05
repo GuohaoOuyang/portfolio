@@ -1,13 +1,14 @@
-.contactI {
+/* .contactI {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-}
+} */
 .contactI > div {
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items:center;
 }
 
@@ -25,14 +26,24 @@
 
 .contactI > div > a:nth-child(2):hover {
   transform: scale(1.1);
-  color: #4078c0;
+  color: #fafafa;
+}
+
+.contactI > div > a:nth-child(3):hover {
+  transform: scale(1.1);
+  color: orange;
+}
+
+.contactI > div > a:nth-child(4):hover {
+  transform: scale(1.1);
+  color: #EA4335;
 }
 
 /* qr code */
-.qC {
+/* .qC {
   width: 60px;
   height: 60px;
   position: absolute;
   right: 300px;
   top: 80px;
-}
+} */

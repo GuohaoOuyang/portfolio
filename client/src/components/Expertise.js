@@ -4,17 +4,17 @@ export const Expertise = () => {
   return (
     <div className="skills">
     <ul className="languages">
-      <li>Java</li>
-      <li>JavaScript</li>
       <li>HTML</li>
+      <li>Java</li>
       <li>Sass</li>
-      <li>SQL</li>
+      <li>JavaScript</li>
+      <li>REST APIs</li>
     </ul>
     <ul className="frameworks">
       <li>React</li>
+      <li>Redux</li>
+      <li>Git</li>
       <li>Node</li>
-      <li>Express</li>
-      <li>Materialize</li>
       <li>MongoDB</li>
     </ul>
   </div>

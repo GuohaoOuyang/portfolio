@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link }  from 'react-router-dom';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUniversity, faProjectDiagram, faUserSecret, faBriefcase, faCode, faAddressCard, faAt , faHome, faRunning } from '@fortawesome/free-solid-svg-icons';
+import { faUniversity, faProjectDiagram, faUserSecret, faCode, faAddressCard, faAt , faHome } from '@fortawesome/free-solid-svg-icons';
 import ReactCardFlip from 'react-card-flip';
 import { Expertise } from './Expertise';
 import { Education } from './Education';
@@ -43,13 +43,13 @@ export const Home = () => {
   return (
     <React.Fragment>
     {/* home botton */}
-      <h2 className="homeb"><FontAwesomeIcon icon={ faHome } onClick={scrollToTop}/></h2>
+    <h2 className="homeb"><FontAwesomeIcon icon={ faHome } onClick={scrollToTop}/></h2>
     <div className="container in-small">
     {/* title */}
       <div className="bg1">
         <Link to="/" className="res">
-          <p className="homeName">Guohao Ouyang</p>
-          <p style={{color: '#dfe9c8'}}>Front End Developer</p>
+          <p className="homeName" style={{fontFamily:"'Work Sans', sans-serif"}}>Aidan Ouyang</p>
+          <p style={{color: '#dfe9c8', fontFamily:"'Work Sans', sans-serif"}}>Full Stack Developer</p>
         </Link>
       </div>
     {/* nav section */}
@@ -57,60 +57,60 @@ export const Home = () => {
        <div className="front">
         <div className="bg1">
           <h2 ><FontAwesomeIcon icon={faUserSecret} /></h2>
-          <p>Who I Am</p>
+          <p>I Am</p>
         </div>
       </div>
     </Slink>
-      <Slink activeClass="active" to="ido" spy={true} smooth={true} offset={50} duration={500} className="link">
+      {/* <Slink activeClass="active" to="ido" spy={true} smooth={true} offset={50} duration={500} className="link">
         <div className="front">
          <div className="bg1">
            <h2><FontAwesomeIcon icon={faBriefcase} /></h2>
-           <p>What I Do</p>
+           <p>I Do</p>
          </div>
        </div>
-     </Slink>
-    {/* card flip education */}
-     <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedFrontToBack='1' flipSpeedBackToFront="1">
-     <div className="front">
-      <div className="bg1" onClick={ handleClick1 }>
-        <h2><FontAwesomeIcon icon={faUniversity} /></h2>
-        <p>My Education Experience</p>
-      </div>
-      </div>
-      <div onClick={ handleClick1 } className="back">
-      <Education />
-      </div>
-    </ReactCardFlip>
+     </Slink> */}
      {/* card flip expertise */}
       <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal" flipSpeedFrontToBack='1' flipSpeedBackToFront="1">
       <div className="front">
       <div className="bg2" onClick={ handleClick2 }>
         <h2><FontAwesomeIcon icon={faCode} /></h2>
-        <p>Top Expertise</p>
+        <p>Good At</p>
       </div>
       </div>
       <div onClick={ handleClick2 } className="back">
       <Expertise />
       </div>
     </ReactCardFlip>
+    {/* card flip education */}
+    <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedFrontToBack='1' flipSpeedBackToFront="1">
+     <div className="front">
+      <div className="bg1" onClick={ handleClick1 }>
+        <h2><FontAwesomeIcon icon={faUniversity} /></h2>
+        <p>Studied At</p>
+      </div>
+      </div>
+      <div onClick={ handleClick1 } className="back">
+      <Education />
+      </div>
+    </ReactCardFlip>
      {/* route to resume */}
       <div className="bg1">
       <Link to="/resume" className="res">
         <h2><FontAwesomeIcon icon={faAddressCard} /></h2>
-        <p>My Resume</p>
+        <p>Resume</p>
       </Link>
       </div>
      {/* project link */}
       <div className="bg2">
       <Link to="/inova" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>Brand Demo</p>
+        <p>SPA Brochure</p>
       </Link>
       </div>
       <div className="bg2">
       <Link to="/fair" className="res">
         <h2><FontAwesomeIcon icon={faProjectDiagram} /></h2>
-        <p>E-Book Store</p>
+        <p>Ecommerce</p>
       </Link>
       </div>
       <div className="bg2">
@@ -134,48 +134,40 @@ export const Home = () => {
     </div>
     {/* about me section */}
       <div className="aboutMe" id="aboutMe">
-        <h2 className="section-head">Hi, My Name is Guohao Ouyang</h2>
-        <p className="section-content">I was born and raised in Chengdu, China.
-        A mega city south west known for panda. I did my elementary schooling
-        there all the way till grade eleven. Then, I came to Canada in June 2013 for
-        further studying. I had two diplomas, one is at Windsor, the south Ontario.
-        And the second one is from Niagara College. I went to University at 2016 and just finished
-        my bachelor degree at York, Toronto.</p>
+        <h2 className="section-head">About</h2>
+        <p className="section-content">
+          Howdy! My Name is Aidan Ouyang and I am the developer and maintainer
+          of this site. It mainly consists of some projects I built and a bit summary of 
+          my past. On a personal level, I was born and raised in China and move
+          to Canada on my own in 2013 to further my education. I graduated from 
+          Lassonde School of Engineering with a CS major in 2020 and currently live in
+          GTA.
+        </p>
       <img src={mock} alt="" className="aboutbg"/>
       </div>
       {/* what I do section */}
-      <div className="ido" id="ido">
+      {/* <div className="ido" id="ido">
         <div>
           <h2 className="running"><FontAwesomeIcon icon={ faRunning }/></h2>
         </div>
         <div>
+          <ul>
+            <li>Proficient in building a reusable and pleasant user interface with javascript &amp; css</li>
+            <li>Hands on experience to build back server and REST APIs using Node and Express</li>
+            <li></li>
+          </ul>
           <p className="section-content">
-            There was a time, I used to do vehicle express services in Nissan, Waterloo in 2015, back when I first
-              graduated from Niagara College. It was a good job. However, I found that I wasn't enjoying that much
-              every now and then. Deep down I want to achieve something meaningful, So I manage to keep learning
-              and go back to University for a computer science degree.
-            </p>
-            <br></br>
-            <p className="section-content">
-              After graduating from the University. I build projects and keep learning new techs to tickle my
-              brain. I am looking forward to meet a bunch of awesome guys to make some beautiful things together.
-            </p>
+            At York, I had the chance to grow a solid foundation in computer science.
+            By building projects and learning from dev channels, I discovered my passion 
+            for full stack development and decided to dive deep into web and browser.
+          </p>
+          <br></br>
+          <p className="section-content">
+            Speaking of technical skills, I am proficient in using css &amp; javascript to build a
+            reusable and pleasant user interface. I have hands on experiecens with
+          </p>
         </div>
-      </div>
-     {/* education ection */}
-      {/*
-        <div className="edu" id="edu">
-        <img src={cert} alt="" className="cert"/>
-        <ul className="eduList">
-          <li>Chengdu Experimental Foreign Languages School <span style={{fontStyle:"italic", fontSize: "1rem"}}> 2009-2013</span></li>
-          <li>Bronte College-high scool, Mississauga 2013-2014</li>
-          <li>St Clair College-Diploma, Fashion Design 2014-2015</li>
-          <li>Niagara College-Diploma, Automotive Technician 2015-2016</li>
-          <li>York University-Lassonde School of Engineering Bachelor's degree, Computer Science 2016-2020</li>
-        </ul>
-
-      </div>
-        */}
+      </div> */}
     </React.Fragment>
 
   )

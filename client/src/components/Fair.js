@@ -15,14 +15,14 @@ export function Fair() {
     return (
             <div className="content">
                 <div className="content__title">
-                    <h1>Fair E-Book Store</h1>
+                    <h1>Fair E-Books</h1>
                     <Link to="/">
                         <h2 className="homeR" style={{color:'#dfe9c8'}}><FontAwesomeIcon icon={ faHome } /></h2>
                     </Link>
                 </div>
                 <div className="content__description">
                     <h3>
-                      an e-book store build by React, Redux for frontend, backend with Express and MongoDB
+                      an e-book store build with React, Redux, Express and MongoDB
                     </h3>
                 </div>
                 <div className="content__feature" >

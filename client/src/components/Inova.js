@@ -23,7 +23,7 @@ export function Inova() {
                 </div>
                 <div className="content__description">
                     <h3>
-                      a refined web branding demo that demonstrate some fundamental javascript and css skills.
+                      a responsive landing page brochure focused on a pleasing front end UI/UX design
                     </h3>
                 </div>
                 <div className="content__feature">
