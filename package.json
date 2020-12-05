@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "backend for my-resume",
   "main": "server.js",
+  "homepage": "https://gojsportfolio.herokuapp.com/",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
