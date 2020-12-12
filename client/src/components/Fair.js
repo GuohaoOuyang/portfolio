@@ -10,9 +10,11 @@ import signup from './bgImages/signup.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link }  from 'react-router-dom';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { Footer } from './Footer';
 
 export function Fair() {
     return (
+        <>
             <div className="content">
                 <div className="content__title">
                     <h1>Fair E-Books</h1>
@@ -70,7 +72,9 @@ export function Fair() {
                     <img src={orders} alt=""></img>
                     <img src={products} alt=""></img>
                 </div>
-            </div>
+           </div>
+           <Footer />
+        </>    
 
     )
 }

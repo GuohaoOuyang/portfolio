@@ -9,6 +9,7 @@ import { Education } from './Education';
 import { Contact } from './Contact';
 import * as Scroll from 'react-scroll';
 import  mock  from './bgImages/mockup.png';
+import { Footer } from './Footer';
 // import  cert  from './bgImages/certif.png';
 
 
@@ -168,6 +169,7 @@ export const Home = () => {
           </p>
         </div>
       </div> */}
+        <Footer />
     </React.Fragment>
 
   )

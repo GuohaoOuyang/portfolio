@@ -11,9 +11,11 @@ import faq from './bgImages/faq.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link }  from 'react-router-dom';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { Footer } from './Footer';
 
 export function Inova() {
     return (
+        <>
             <div className="content">
                 <div className="content__title">
                     <h1>Inova Game</h1>
@@ -71,7 +73,9 @@ export function Inova() {
                     <img src={faq} alt=""></img>
                     <img src={footer} alt=""></img>
                 </div>
-            </div>
 
+            </div>
+            <Footer />
+        </>        
     )
 }
