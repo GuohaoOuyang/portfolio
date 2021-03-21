@@ -4,7 +4,7 @@ Presonal Portfolio(static page)
 ## Description
 The website consists of some projects I built and a bit summary of my past.
 
-## [Demo](https://guohaoouyang.herokuapp.com/)
+## [Demo](https://gojsportfolio.herokuapp.com/)
 The demo is hosted free by heroku, it might take a little bit longer to load.
 
 ## Code style
