@@ -5,3 +5,7 @@ client/public/
 .DS_Store
 config/config/env
 
+node_modules/
+
+# production
+/build/
