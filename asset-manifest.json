@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b84820ce.chunk.css",
+    "main.js": "/portfolio/static/js/main.b1d3ddb1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b1d3ddb1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fcdc992.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fcdc992.js.map",
+    "static/js/2.f3823dd6.chunk.js": "/portfolio/static/js/2.f3823dd6.chunk.js",
+    "static/js/2.f3823dd6.chunk.js.map": "/portfolio/static/js/2.f3823dd6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.48ac52872b14278a5def38a72554cf9d.js": "/portfolio/precache-manifest.48ac52872b14278a5def38a72554cf9d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.b84820ce.chunk.css.map": "/portfolio/static/css/main.b84820ce.chunk.css.map",
+    "static/js/2.f3823dd6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f3823dd6.chunk.js.LICENSE.txt",
+    "static/media/cart.png": "/portfolio/static/media/cart.4e656a6f.png",
+    "static/media/contact.png": "/portfolio/static/media/contact.30b975ce.png",
+    "static/media/faq.png": "/portfolio/static/media/faq.69535244.png",
+    "static/media/footer.png": "/portfolio/static/media/footer.83ba21ef.png",
+    "static/media/homebot.png": "/portfolio/static/media/homebot.90b2a6f4.png",
+    "static/media/hometop.png": "/portfolio/static/media/hometop.2d50290d.png",
+    "static/media/item1.png": "/portfolio/static/media/item1.d8b770a0.png",
+    "static/media/item2.png": "/portfolio/static/media/item2.bb2b79fc.png",
+    "static/media/mockup.png": "/portfolio/static/media/mockup.811311ec.png",
+    "static/media/orders.png": "/portfolio/static/media/orders.da01094b.png",
+    "static/media/payment.png": "/portfolio/static/media/payment.7719bed2.png",
+    "static/media/product.png": "/portfolio/static/media/product.4f5889e9.png",
+    "static/media/products.png": "/portfolio/static/media/products.b53c4927.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.3a995477.pdf",
+    "static/media/signup.png": "/portfolio/static/media/signup.e617df44.png",
+    "static/media/ssa.png": "/portfolio/static/media/ssa.c3de700c.png",
+    "static/media/story1.png": "/portfolio/static/media/story1.059eaee0.png",
+    "static/media/story2.png": "/portfolio/static/media/story2.a08ed925.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fcdc992.js",
+    "static/js/2.f3823dd6.chunk.js",
+    "static/css/main.b84820ce.chunk.css",
+    "static/js/main.b1d3ddb1.chunk.js"
+  ]
+}
