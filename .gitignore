@@ -1,17 +1,8 @@
 node_modules/
-client/node_modules/
-client/build/
-client/public/
+build/
+public/
 .DS_Store
-config/config/env
-
-node_modules 2/
-
+client/
 .vscode/
 
-config/
-
-# production
-/build/
-
-client/src/resume.pdf
+src/resume.pdf

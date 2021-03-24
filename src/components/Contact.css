@@ -1,0 +1,39 @@
+.contactI > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactI > div > a {
+  text-decoration: none;
+  margin-right: 20%;
+  color: #dfe9c8;
+  transition: all 0.5s ease;
+}
+
+.contactI > div > a:first-child:hover {
+  transform: scale(1.1);
+  color: #2867b2;
+}
+
+.contactI > div > a:nth-child(2):hover {
+  transform: scale(1.1);
+  color: #fafafa;
+}
+
+.contactI > div > a:nth-child(3):hover {
+  transform: scale(1.1);
+  color: #ffb900;
+}
+
+.contactI > div > a:nth-child(4):hover {
+  transform: scale(1.1);
+  color: #ea4335;
+}
+
+.contactI > div > a:nth-child(3):hover {
+  transform: scale(1.1);
+  color: orange;
+}
