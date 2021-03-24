@@ -5,7 +5,6 @@
   /* font-family: 'Roboto', sans-serif; */
 }
 
-
 /* grid content style */
 h2 {
   font-size: 30px;
@@ -70,18 +69,18 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   flex-direction: column;
   width: 100vw;
   /* height: 100vh; */
 }
 
-.aboutMe h2{
+.aboutMe h2 {
   text-align: center;
   padding: 1rem;
 }
 
-.aboutMe p{
+.aboutMe p {
   text-align: left;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -89,14 +88,18 @@ p {
 }
 
 .aboutbg {
-  padding-top:  2rem;
+  padding-top: 2rem;
   width: 80%;
 }
 
 /* what I do section */
 .ido {
   /* background: lightgrey; */
-  background: linear-gradient(to right, rgba(33,33,33,0.8), rgba(255,255,255,0));
+  background: linear-gradient(
+    to right,
+    rgba(33, 33, 33, 0.8),
+    rgba(255, 255, 255, 0)
+  );
   color: black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -155,7 +158,7 @@ p {
 
 /* expertise */
 .skills {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   text-align: center;
@@ -182,10 +185,12 @@ p {
   grid-gap: 10px;
   background: #282828;
   color: #dfe9c8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.container > div, .front > div, .link > div{
+.container > div,
+.front > div,
+.link > div {
   cursor: pointer;
   height: 210px;
   background-size: cover;
@@ -255,103 +260,108 @@ p {
 }
 
 .bg1 {
-  background: url('./bgImages/hk.jpg');
+  background: url("./bgImages/footer.png");
 }
 
 .bg2 {
-  background: url('./bgImages/hk.jpg');
+  background: url("./bgImages/footer.png");
   color: #dfe9c8;
 }
 
 /* mobile setting */
 @media screen and (max-width: 580px) {
-.in-small {
+  .in-small {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 4px;
-}
+  }
 
-.homeName {
+  .homeName {
     font-size: 25px;
     font-weight: 600;
-}
+  }
 
-.container > div:nth-of-type(1) {
-  grid-column: auto;
-}
+  .container > div:nth-of-type(1) {
+    grid-column: auto;
+  }
 
-.container > div:nth-of-type(3) {
-  grid-column: auto ;
-}
+  .container > div:nth-of-type(3) {
+    grid-column: auto;
+  }
 
-.container > div:nth-of-type(4) {
-  grid-column: auto ;
-}
+  .container > div:nth-of-type(4) {
+    grid-column: auto;
+  }
 
-.container > div:nth-of-type(8) {
-  grid-column: auto;
-}
+  .container > div:nth-of-type(8) {
+    grid-column: auto;
+  }
 
-h2 {
-  font-size: 20px;
-  font-weight: 300;
-  margin: 5px;
-}
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px;
+  }
 
-.qC {
-  display: none;
-}
+  .qC {
+    display: none;
+  }
 
-.section-head {
-  font-size: 1rem;
-  margin-top: 5vh;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
+  .section-head {
+    font-size: 1rem;
+    margin-top: 5vh;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
 
-.section-content {
-  font-size: 0.8rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  text-align: left;
-}
+  .section-content {
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: left;
+  }
 
-.aboutMe {
-  padding: 2rem;
-  line-height: 1.6;
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-}
+  .aboutMe {
+    padding: 2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
 
-.back, .container > div, .front > div, .link > div{
-  height: 150px;
-}
+  .back,
+  .container > div,
+  .front > div,
+  .link > div {
+    height: 150px;
+  }
 
-.education, .languages, .frameworks, .contactI {
-  padding:  1rem;
-  line-height: 1.6em;
-  font-size: 0.8rem;
-}
+  .education,
+  .languages,
+  .frameworks,
+  .contactI {
+    padding: 1rem;
+    line-height: 1.6em;
+    font-size: 0.8rem;
+  }
 
-.ido {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  overflow-y: hidden;
-  padding-top: 1rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  width: 100%;
-}
+  .ido {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    overflow-y: hidden;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    width: 100%;
+  }
 
-.running {
-  font-size: 5rem;
-  text-align: center;
-}
+  .running {
+    font-size: 5rem;
+    text-align: center;
+  }
 
-.ido > div:nth-of-type(2) {
-  grid-column: auto;
-}
-
+  .ido > div:nth-of-type(2) {
+    grid-column: auto;
+  }
 }

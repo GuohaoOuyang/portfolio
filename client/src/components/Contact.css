@@ -39,6 +39,11 @@
   color: #EA4335;
 }
 
+.contactI > div > a:nth-child(3):hover {
+  transform: scale(1.1);
+  color: orange;
+}
+
 /* qr code */
 /* .qC {
   width: 60px;

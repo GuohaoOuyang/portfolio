@@ -1,22 +1,28 @@
 ## Project title
-Portfolio -- an ongoing updating react portfolio.
+
+Presonal Portfolio(static page)
 
 ## Description
-The website is a demo to demonstrate my story, skills, resume and recent projects.
 
-## [Demo](https://guohaoouyang.herokuapp.com/)
-The demo is hosted free by heroku, so please be patient of loading time :)
+The website consists of some projects I built and a bit summary of my past.
+
+## [Demo](https://gojsportfolio.herokuapp.com/)
+
+The demo is hosted free by heroku, it might take a little bit longer to load.
 
 ## Code style
+
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
- 
+
 ## Screenshots
+
 ![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
 ![ss2](/client/src/components/bgImages/screenshot2.png?raw=true "Optional Title")
 ![ss3](/client/src/components/bgImages/screenshot3.png?raw=true "Optional Title")
 ![ss3](/client/src/components/bgImages/screenshot4.png?raw=true "Optional Title")
 
 ## Tech/framework used
+
 - [React](https://reactjs.org/)
 - [Express](https://expressjs.com/)
 - [Mongoose](https://mongoosejs.com/)
@@ -24,6 +30,7 @@ The demo is hosted free by heroku, so please be patient of loading time :)
 - [ReactCardFlip](https://github.com/AaronCCWong/react-card-flip)
 
 ## Features
+
 - grid layout/fix attached background
 - responsive design
 - card-flip effect
@@ -32,9 +39,11 @@ The demo is hosted free by heroku, so please be patient of loading time :)
 - redirect project info page
 
 ## Installation
+
 This project was bootstrapped with Create React App.
 
 ### `npm start`
+
 Runs the app in the development mode.
 Open http://localhost:5000 to view it in the browser.
 
@@ -60,7 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 Pull Requests are always welcome.
 
 When you edit the code, please run npm run test to check the formatting of your code before you git commit.
-
 
 ## License
 
