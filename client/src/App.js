@@ -1,11 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import './App.css';
-import { Home } from './components/Home';
-import { Resume } from './components/resume/Resume';
-import { Inova } from './components/Inova';
-import { Fair } from './components/Fair';
-
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import { Home } from "./components/Home";
+// import { Resume } from "./components/resume/Resume";
+import { Inova } from "./components/Inova";
+import { Fair } from "./components/Fair";
+import resume from "./resume.pdf";
 
 function App() {
   return (
@@ -14,13 +14,18 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/resume">
-          <Resume />
+        <Route path="/resources/resume">
+          <iframe
+            style={{ width: "100vw", height: "100vh" }}
+            src={resume}
+            type="application/pdf"
+            title="resume"
+          />
         </Route>
-        <Route path="/inova">
+        <Route path="/project/inova">
           <Inova />
         </Route>
-        <Route path="/fair">
+        <Route path="/project/fair">
           <Fair />
         </Route>
       </Switch>
