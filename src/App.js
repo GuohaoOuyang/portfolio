@@ -8,7 +8,7 @@ import resume from "./components/bgImages/resume.pdf";
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ""}>
       <Switch>
         <Route exact path="/">
           <Home />
