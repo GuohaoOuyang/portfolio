@@ -1,8 +1,7 @@
 {
-  "homepage": "http://guohaoouyang.github.io/portfolio",
+  "homepage": "http://guohaoouyang.github.io/portfolio/",
   "name": "my-resume",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",

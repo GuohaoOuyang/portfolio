@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { Footer } from "./Footer";
 
-export function Inova() {
+function Inova() {
   return (
     <>
       <div className="content">
@@ -32,15 +32,11 @@ export function Inova() {
           </h3>
         </div>
         <div className="content__demo">
-          <a href="https://inovagame.herokuapp.com/">
-            <h3>Demo</h3>
+          <a href="https://guohaoouyang.github.io/spa-brochure-inovagame/">
+            <h3>
+              Demo hosted by <em>Github Pages</em>
+            </h3>
           </a>
-        </div>
-        <div className="content__demosub">
-          <h3>
-            the demo is hosted free by heroku, it might take a little bit longer
-            to load
-          </h3>
         </div>
         <div className="content__feature">
           <h3>Features</h3>
@@ -105,3 +101,5 @@ export function Inova() {
     </>
   );
 }
+
+export default Inova;

@@ -19,7 +19,7 @@ import * as Scroll from "react-scroll";
 import mock from "./bgImages/mockup.png";
 import { Footer } from "./Footer";
 
-export const Home = () => {
+const Home = () => {
   const [isFlipped1, setIsFlipped1] = useState(false);
   const [isFlipped2, setIsFlipped2] = useState(false);
   const [isFlipped3, setIsFlipped3] = useState(false);
@@ -199,3 +199,5 @@ export const Home = () => {
     </React.Fragment>
   );
 };
+
+export default Home;

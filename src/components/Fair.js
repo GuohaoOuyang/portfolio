@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { Footer } from "./Footer";
 
-export function Fair() {
+function Fair() {
   return (
     <>
       <div className="content">
@@ -29,11 +29,10 @@ export function Fair() {
         </div>
         <div className="content__demo">
           <a href="http://ec2-15-223-64-87.ca-central-1.compute.amazonaws.com">
-            <h3>Demo</h3>
+            <h3>
+              Demo hosted by <em>AWS EC2</em>
+            </h3>
           </a>
-        </div>
-        <div className="content__demosub">
-          <h3>the demo is hosted on an AWS EC2 instance</h3>
         </div>
         <div className="content__feature">
           <h3>Features</h3>
@@ -95,3 +94,4 @@ export function Fair() {
     </>
   );
 }
+export default Fair;

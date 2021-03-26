@@ -33,7 +33,8 @@ body {
 
 /* demo setting*/
 .content__demo {
-  padding-bottom: 1vh;
+  padding-top: 1vh;
+  padding-bottom: 8vh;
 }
 
 .content__demo > a {
@@ -48,13 +49,6 @@ body {
 .content__demo > a > h3:hover {
   transform: scale(1.1);
   color: #ffb900;
-}
-
-.content__demosub {
-  padding-top: 2vh;
-  padding-bottom: 8vh;
-  font-size: 0.8rem;
-  color: #dfe9c8;
 }
 
 /* features setting */
