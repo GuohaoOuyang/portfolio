@@ -4,4 +4,4 @@ build/
 client/
 .vscode/
 
-src/resume.pdf
+src/components/bgImages/resume.pdf

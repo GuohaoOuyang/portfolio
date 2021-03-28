@@ -27,9 +27,15 @@ function Inova() {
         </div>
         <div className="content__description">
           <h3>
-            a responsive landing page brochure focused on a pleasing front end
-            UI/UX design
+            A responsive SPA brochure aimed at providing an interactive front
+            end UI/UX design
           </h3>
+        </div>
+        <div className="content__feature">
+          <h3>Stacks</h3>
+        </div>
+        <div className="content__description">
+          <h3>React, Sass, Google Maps Platforms, Lottie-web, Materialize</h3>
         </div>
         <div className="content__demo">
           <a href="https://guohaoouyang.github.io/spa-brochure-inovagame/">
@@ -38,10 +44,7 @@ function Inova() {
             </h3>
           </a>
         </div>
-        <div className="content__feature">
-          <h3>Features</h3>
-        </div>
-        <div className="content__feature_list">
+        {/* <div className="content__feature_list">
           <div>
             <ul>
               <li>
@@ -77,7 +80,7 @@ function Inova() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className="content__explore">
           <a href="https://github.com/GuohaoOuyang/Brand-demo-inovagame">
             <h3>Explore More at Github</h3>
