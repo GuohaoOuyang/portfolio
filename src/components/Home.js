@@ -185,7 +185,7 @@ const Home = () => {
           <br />
           <br />
           Some facts about me:
-          <br />◆ I am software developer | snowboarder | dreamer 🌈
+          <br />◆ I am software developer | snowboarder | dream chaser 🌈
           <br />
           ◆ 70%❤️ front end, 30%❤️ back end
           <br />
