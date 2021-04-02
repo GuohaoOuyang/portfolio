@@ -1,24 +1,15 @@
-## Project title
+## Presonal Portfolio
+---
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Presonal Portfolio(static page)
-
-## Description
-
-The website consists of some projects I built and a bit summary of my past.
+> The website consists of some projects I built and a bit summary of my past.
 
 ## [Demo](https://guohaoouyang.github.io/portfolio/)
 
 
-## Code style
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
 ## Screenshots
 
 ![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
-![ss2](/client/src/components/bgImages/screenshot2.png?raw=true "Optional Title")
-![ss3](/client/src/components/bgImages/screenshot3.png?raw=true "Optional Title")
-![ss3](/client/src/components/bgImages/screenshot4.png?raw=true "Optional Title")
 
 ## Tech/framework used
 
