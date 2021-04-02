@@ -4,7 +4,13 @@
 
 > The website consists of some projects I built and a bit summary of my past.
 
-Features:
+![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
+
+## Live Preview
+
+[Demo](https://guohaoouyang.github.io/portfolio/)
+
+## Features:
 - scalable grid layout
 - parallex effect
 - responsive design
@@ -17,12 +23,6 @@ Features:
 - [Mongoose](https://mongoosejs.com/)
 - [React-scroll](https://github.com/fisshy/react-scroll)
 - [ReactCardFlip](https://github.com/AaronCCWong/react-card-flip)
-
-## [Demo](https://guohaoouyang.github.io/portfolio/)
-
-## Screenshots
-
-![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
 
 
 ## Installation
