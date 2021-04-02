@@ -4,12 +4,11 @@
 
 > The website consists of some projects I built and a bit summary of my past.
 
-## [Demo](https://guohaoouyang.github.io/portfolio/)
-
-
-## Screenshots
-
-![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
+Features:
+- scalable grid layout
+- parallex effect
+- responsive design
+- smooth scroll
 
 ## Tech/framework used
 
@@ -19,14 +18,12 @@
 - [React-scroll](https://github.com/fisshy/react-scroll)
 - [ReactCardFlip](https://github.com/AaronCCWong/react-card-flip)
 
-## Features
+## [Demo](https://guohaoouyang.github.io/portfolio/)
 
-- grid layout/fix attached background
-- responsive design
-- card-flip effect
-- smooth scroll
-- embeded editable resume
-- redirect project info page
+## Screenshots
+
+![ss1](/client/src/components/bgImages/screenshot1.png?raw=true "Optional Title")
+
 
 ## Installation
 
@@ -50,15 +47,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-## Contribute
-
-Pull Requests are always welcome.
-
-When you edit the code, please run npm run test to check the formatting of your code before you git commit.
 
 ## License
 
