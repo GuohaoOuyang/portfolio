@@ -20,8 +20,6 @@
 ## Tech/framework used
 
 - [React](https://reactjs.org/)
-- [Express](https://expressjs.com/)
-- [Mongoose](https://mongoosejs.com/)
 - [React-scroll](https://github.com/fisshy/react-scroll)
 - [ReactCardFlip](https://github.com/AaronCCWong/react-card-flip)
 
