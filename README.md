@@ -4,7 +4,7 @@
 
 > A website about me
 
-![ss1](/client/src/components/bgImages/homepage.png?raw=true "Optional Title")
+![hp](/src/components/bgImages/homepage.png?raw=true "Optional Title")
 
 ## Live Preview
 
