@@ -38,7 +38,7 @@ function Inova() {
           <h3>React, Sass, Google Maps Platforms, Lottie-web, Materialize</h3>
         </div>
         <div className="content__demo">
-          <a href="https://guohaoouyang.github.io/spa-brochure-inovagame/">
+          <a href="https://guohaoouyang.github.io/spa-brochure/">
             <h3>
               Demo hosted by <em>Github Pages</em>
             </h3>
