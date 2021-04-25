@@ -4,18 +4,18 @@ export const Expertise = () => {
   return (
     <div className="skills">
       <ul className="languages">
-        <li>AWS</li>
-        <li>Git</li>
-        <li>CI/CD</li>
-        <li>Docker</li>
-        <li>Linux</li>
+        <li>C</li>
+        <li>SQL</li>
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>Markdown</li>
       </ul>
       <ul className="frameworks">
-        <li>D3</li>
-        <li>Sass</li>
+        <li>MERN</li>
         <li>Redux</li>
+        <li>Bootstrap</li>
         <li>Material-UI</li>
-        <li>MERN Stack</li>
+        <li>styled-components</li>
       </ul>
     </div>
   );

@@ -134,23 +134,31 @@ const Home = () => {
         </div>
         {/* project link */}
         <div className="bg2">
-          <Link to="/project/inova" className="res">
+          <a
+            href="https://github.com/GuohaoOuyang/spa-brochure"
+            className="res">
+            {/* <Link to="/project/inova" className="res"> */}
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
             <p>SPA Brochure</p>
-          </Link>
+            {/* </Link> */}
+          </a>
         </div>
         <div className="bg2">
-          <Link to="/project/fair" className="res">
+          <a href="https://github.com/GuohaoOuyang/ebook-store" className="res">
+            {/* <Link to="/project/fair" className="res"> */}
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
             <p>Ebook Store</p>
-          </Link>
+            {/* </Link> */}
+          </a>
         </div>
         <div className="bg2">
-          <a href="https://github.com/hatchways/team-dolphin" className="res">
+          <a
+            href="https://github.com/GuohaoOuyang/team-dolphin"
+            className="res">
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
@@ -180,8 +188,8 @@ const Home = () => {
       <div className="aboutMe" id="aboutMe">
         <h2 className="section-head">About</h2>
         <p className="section-content">
-          Howdy! My Name is Aidan Ouyang and I am the developer and maintainer
-          of this site.
+          Hi! My Name is Aidan Ouyang and I am the developer and maintainer of
+          this site.
           <br />
           <br />
           Some facts about me:
