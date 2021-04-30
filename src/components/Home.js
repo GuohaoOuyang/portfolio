@@ -136,29 +136,33 @@ const Home = () => {
         <div className="bg2">
           <a
             href="https://github.com/GuohaoOuyang/spa-brochure"
-            className="res">
-            {/* <Link to="/project/inova" className="res"> */}
+            className="res"
+            target="_blank"
+            rel="noopener noreferrer">
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
             <p>SPA Brochure</p>
-            {/* </Link> */}
           </a>
         </div>
         <div className="bg2">
-          <a href="https://github.com/GuohaoOuyang/ebook-store" className="res">
-            {/* <Link to="/project/fair" className="res"> */}
+          <a
+            href="https://github.com/GuohaoOuyang/ebook-store"
+            className="res"
+            target="_blank"
+            rel="noopener noreferrer">
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
             <p>Ebook Store</p>
-            {/* </Link> */}
           </a>
         </div>
         <div className="bg2">
           <a
             href="https://github.com/GuohaoOuyang/team-dolphin"
-            className="res">
+            className="res"
+            target="_blank"
+            rel="noopener noreferrer">
             <h2>
               <FontAwesomeIcon icon={faProjectDiagram} />
             </h2>
@@ -194,8 +198,6 @@ const Home = () => {
           <br />
           Some facts about me:
           <br />◆ I am software developer | snowboarder | dream chaser 🌈
-          <br />
-          ◆ 70%❤️ front end, 30%❤️ back end
           <br />
           ◆ Always focus on the problem, not the technology
           <br />◆ Looking for a challenging role that provides an opportunity to

@@ -20,6 +20,12 @@ h2 {
   text-decoration: none;
   font-size: 30px;
   color: #dfe9c8;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 p {

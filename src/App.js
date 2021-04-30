@@ -2,8 +2,6 @@ import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
-import Inova from "./components/Inova";
-import Fair from "./components/Fair";
 import resume from "./components/bgImages/resume.pdf";
 
 function App() {
@@ -19,8 +17,6 @@ function App() {
             title="resume"
           />
         </Route>
-        <Route path="/project/inova" component={Inova} />
-        <Route path="/project/fair" component={Fair} />
       </Switch>
     </HashRouter>
   );
